@@ -1,1 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden;
+    background-color: bisque;
+    color: black;
+    margin: 0;
+}
+
+.container{
+    background-color: burlywood;
+}
