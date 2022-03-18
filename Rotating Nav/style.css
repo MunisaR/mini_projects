@@ -8,11 +8,12 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     overflow-x: hidden;
-    background-color: bisque;
-    color: black;
+    background: #FFFFFF;
+    color: #000000;
     margin: 0;
 }
 
 .container{
-    background-color: burlywood;
+    background-color: #FFFFFF;
 }
+
