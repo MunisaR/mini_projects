@@ -7,13 +7,56 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    overflow-x: hidden;
     background: #FFFFFF;
+    overflow-x: hidden;
     color: #000000;
     margin: 0;
+    padding: 0;
 }
 
-.container{
+.container{ 
     background-color: #FFFFFF;
+    transform-origin: top left;
+    transition: transform 0.5s linear;
+    width: 100vh;
+    min-height: 100vh;
+    padding: 50px;
+
+
+}
+
+.container .show-nav {
+    transform: rotate(-20deg);
+}
+
+.circle-container{
+    position: fixed;
+    top: -100px;
+    left: -100px;
+
+}
+
+.circle{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    position: relative;
+    transition: transform 0.5s linear;
+
+}
+
+
+.circle button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    background: transparent;
+    border: 0;
+    font-size: 26px;
+    color: #FFFFFF;
+
+
 }
 
