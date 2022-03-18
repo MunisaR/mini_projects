@@ -40,7 +40,7 @@ body{
     background-color: aquamarine;
     height: 200px;
     width: 200px;
-    border-radius: 50px;
+    border-radius: 85px;
     position: relative;
     transition: transform 0.5s linear;
 
@@ -56,7 +56,23 @@ body{
     border: 0;
     font-size: 26px;
     color: #FFFFFF;
+}
 
+.circle button:focus{
+    outline: none;
 
 }
 
+.circle button#open{
+    left: 60%;
+}
+
+.circle button#close{
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left ;
+}
+
+.content img{
+    max-width: 100%;
+}
