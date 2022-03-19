@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-
+    /* width: 1493px; */
 }
 
 body{
@@ -10,8 +10,9 @@ body{
     background: #FFFFFF;
     overflow-x: hidden;
     color: #000000;
-    margin: 0;
-    padding: 0;
+    /* margin: 5px;
+    padding: 5px;
+    margin-right: 5px; */
 }
 
 .container{ 
@@ -78,5 +79,5 @@ body{
     height: 1493px;
     left: 160px;
     right: 160px;
-    
+
 }
