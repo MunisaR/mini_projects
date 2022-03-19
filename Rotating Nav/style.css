@@ -74,5 +74,9 @@ body{
 }
 
 .content img{
-    max-width: 100%;
+    max-width: 1120px;
+    height: 1493px;
+    left: 160px;
+    right: 160px;
+    
 }
