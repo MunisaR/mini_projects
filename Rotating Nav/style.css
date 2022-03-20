@@ -16,11 +16,11 @@ body{
 
 .container{ 
     background-color: #FFFFFF;
-    /* transform-origin: top left;
+    transform-origin: top left;
     transition: transform 0.5s linear;
-    width: 100vh;
+    width: 100vw ;
     min-height: 100vh;
-    padding: 50px; */
+    padding: 50px;
 
 
 }
