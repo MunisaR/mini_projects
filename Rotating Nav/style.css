@@ -7,9 +7,7 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    flex-direction: column;
-    background: #FFFFFF;
+    background-color: #161616;
     overflow-x: hidden;
     color: #000000;
     margin: 0;
@@ -18,16 +16,16 @@ body{
 
 .container{ 
     background-color: #FFFFFF;
-    transform-origin: top left;
+    /* transform-origin: top left;
     transition: transform 0.5s linear;
     width: 100vh;
     min-height: 100vh;
-    padding: 50px;
+    padding: 50px; */
 
 
 }
 
-.container .show-nav {
+.container.show-nav {
     transform: rotate(-20deg);
 }
 
