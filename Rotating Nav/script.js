@@ -12,4 +12,3 @@ close.addEventListener('click', () => {
     container.classList.remove('rotate')
 })
 
-// ;erhgsvnlfd
