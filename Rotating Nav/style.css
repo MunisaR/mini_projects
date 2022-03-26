@@ -73,6 +73,20 @@ body{
     transform-origin: top left ;
 }
 
+nav{
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+
+
 .content img{
     max-width: 1120px;
     height: 1493px;
@@ -80,3 +94,23 @@ body{
     right: 160px;
 
 }
+
+.content{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.content h1 {
+    margin:  0;
+}
+
+.content small {
+    color: #161616;
+    font-style: italic;
+}
+
+.content p{
+    color: #161616;
+    line-height: 1.5;
+}
+
