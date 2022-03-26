@@ -31,7 +31,7 @@ body{
 
 .circle-container{
     position: fixed;
-    top: -100px;
+    top: -1  00px;
     left: -100px;
 
 }
@@ -127,11 +127,6 @@ nav ul li + li + li {
 
 .content h1 {
     margin:  0;
-}
-
-.content small {
-    color: #161616;
-    font-style: italic;
 }
 
 .content p{
