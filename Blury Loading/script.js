@@ -12,5 +12,6 @@
          clearInterval(int)
      }
      loadtext.innerText = '${load}%'
+     loadtext.style.opacity = scale(load, 0, 100, 1, 0) 
  }
  
