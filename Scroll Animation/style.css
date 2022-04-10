@@ -28,6 +28,7 @@ h1{
     justify-content: center;
     width: 400px;
     height: 200px;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, .3);
     transform: translateX(200%);
@@ -35,7 +36,7 @@ h1{
 }
 
 .box:nth-of-type(even){
-    transform: translateX(-200%);
+    transform: translateX(-400%);
 }
 
 .box.show{
