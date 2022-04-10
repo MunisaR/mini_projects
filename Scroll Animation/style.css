@@ -3,5 +3,42 @@
 *{
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    
+
 }
+
+body{
+    background-color: #eddcd2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin: 0;
+}
+
+h1{
+    margin: 10px;
+
+}
+
+.box{
+    background-color: #a5a58d;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .3);
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even){
+    transform: translateX(-200%);
+}
+
+.box.show{
+    transform: translateX(0);
+}
+
